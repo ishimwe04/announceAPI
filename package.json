@@ -24,7 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --exec babel-node ./server/index.js",
     "build": "babel server --out-dir dist",
-    "serve": "node dict dist/index.js"
+    "server": "node dict dist/index.js"
   },
   "author": "",
   "license": "ISC"
