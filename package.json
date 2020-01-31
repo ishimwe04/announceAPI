@@ -4,6 +4,9 @@
   "description": "",
   "main": "announcements.js",
   "dependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
     "@babel/preset-env": "^7.8.3",
     "bcrypt": "^3.0.7",
     "express": "^4.17.1",
@@ -13,9 +16,6 @@
     "pg": "^7.18.1"
   },
   "devDependencies": {
-    "@babel/cli": "^7.8.3",
-    "@babel/core": "^7.8.3",
-    "@babel/node": "^7.8.3",
     "chai": "^4.2.0",
     "chai-http": "^4.3.0",
     "mocha": "^7.0.1"
